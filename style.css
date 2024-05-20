@@ -1,93 +1,24 @@
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    background-color: rgb(213, 207, 207);
 }
-
-/* Basic styles */
+.form{
+    max-width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    
+    
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    padding: 20px;
+    background-color: #d0cdcd;
+    
 }
-
-nav {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-
-nav h3 {
-    margin-right: auto;
-    font-size: 20px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-nav input[type="text"] {
+input[type="text"],
+input[type="password"]{
+    width: 50%;
     padding: 5px;
-    margin-right: 10px;
+    margin-bottom: 16px;
+    border-radius: 4px;
 }
-
-nav button {
-    padding: 5px 10px;
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
-.ps {
-    margin-left: auto;
-}
-
-div {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    width: 300px;
-}
-
-div input[type="text"], div input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-div input[type="text"]:focus, div input[type="password"]:focus {
-    outline: none;
-    border-color: #4CAF50;
-}
-
-div a {
-    text-decoration: none;
-    color: #4CAF50;
-}
-
-.LogIn {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.LogIn:hover {
-    background-color: #45a049;
-}
-form  {
-    margin-bottom: 20px;
-    text-align: center;
-  }
